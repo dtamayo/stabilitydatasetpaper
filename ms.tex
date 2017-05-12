@@ -1,0 +1,125 @@
+\documentclass[useAMS,usenatbib,fleqn]{mnras}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{nicefrac}
+\usepackage{txfonts}
+\usepackage{trivfloat}
+\usepackage{subcaption}
+
+\trivfloat{listfloat}
+\usepackage{longtable}
+\usepackage[percent]{overpic}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{mathtools} 
+\usepackage{enumitem}
+\usepackage[percent]{overpic}
+\usepackage{soul}
+
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{natbib}
+\usepackage{multirow}
+\usepackage[noend]{algpseudocode} 
+\renewcommand\Re{\operatorname{\mathfrak{Re}}}
+\newcommand\eps{\ensuremath{\mathit{eps}}}
+\renewcommand\Im{\operatorname{\mathfrak{Im}}}
+\newcommand{\sima}{\textit{Simulation Archive}\xspace}
+\newcommand{\simas}{\textit{Simulation Archives}\xspace}
+\newcommand{\reb}{{\sc \tt REBOUND}\xspace}
+\newcommand{\whfast}{{\sc \tt WHFast}\xspace}
+\newcommand{\ias}{{\sc \tt IAS15}\xspace}
+\DeclareMathOperator{\Ha}{\mathcal{H}}
+\newcommand{\whf}{{\sc \tt WHFast}\xspace}
+
+
+\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
+
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+}
+
+
+
+\usepackage{array}
+\usepackage{appendix}
+\usepackage{comment}
+
+\include{mnras_jdf}
+\bibliographystyle{mnras}
+
+
+\newcommand{\rrs}{{\sc \tt IAS15}\xspace}
+\newcommand{\gr}{Gau\ss-Radau\xspace}
+\newcommand{\radau}{{\sc \tt RADAU}\xspace}
+\newcommand{\mer}{{\sc \tt MERCURY}\xspace}
+\newcommand{\swifter}{{\sc \tt SWIFTER}\xspace}
+\newcommand{\wh}{{\sc \tt WH}\xspace}
+\newcommand{\swifterwhm}{{\sc \tt SWIFTER-WHM}\xspace}
+\newcommand{\swifterhelio}{{\sc \tt SWIFTER-HELIO}\xspace}
+\newcommand{\swiftertu}{{\sc \tt SWIFTER-TU4}\xspace}
+\newcommand{\janus}{{\sc \tt JANUS}\xspace}
+\newcommand{\brs}[1]{\left[ #1 \right]}
+\newcommand{\brp}[1]{\left( #1 \right)}
+\newcommand{\brc}[1]{\left\{ #1 \right\}}
+\newcommand{\pn}[1]{\mbox{$(#1)$}}
+%\newcommand{\rrr}[1]{\textbf{#1}}
+\def\gsim{\;\rlap{\lower 2.5pt
+ \hbox{$\sim$}}\raise 1.5pt\hbox{$>$}\;}
+\def\lsim{\;\rlap{\lower 2.5pt
+   \hbox{$\sim$}}\raise 1.5pt\hbox{$<$}\;}
+\def\memohr#1{\color{blue}$HR[${\bf #1}$]$ \color{black}}
+\def\memodt#1{\color{red}$DT[${\bf #1}$]$ \color{black}}
+
+\title{Stability Dataset}
+\date{Draft version: \today{}}
+
+\author[Daniel Tamayo et al.]{ 
+Daniel Tamayo$^{1,2,3}$  
+\\
+$^1$ Department of Physical and Environmental Sciences, University of Toronto at Scarborough, Toronto, Ontario M1C 1A4, Canada\\
+$^2$ Centre for Planetary Sciences Fellow
+$^3$ Canadian Institute for Theoretical Astrophysics, 60 St. George St, University of Toronto, Toronto, Ontario M5S 3H8, Canada\\
+}
+
+\vspace{0.5\baselineskip}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Blah
+\end{abstract}
+
+\begin{keywords}
+methods: numerical --- gravitation --- planets and satellites: dynamical evolution and stability 
+\end{keywords}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{intro}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Acknowledgments}
+This research was made possible by the open-source projects \texttt{Jupyter} \citep{jupyter}, \texttt{iPython} \citep{ipython}, and \texttt{matplotlib} \citep{matplotlib, matplotlib2}.
+
+
+
+\bibliography{Bib}
+\end{document}
